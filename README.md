@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -70,4 +70,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 =======
 # ReactStudy.hello-react
 ReactStudy.hello-react
->>>>>>> c7d75ba5429f64f322d2f3263ea7ae8a5b71b966
+
