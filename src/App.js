@@ -1,34 +1,10 @@
 import React, {Component, Fragment} from 'react';
-import logo from './logo.svg';
-import './App.css';
+import MyComponent from './MyComponent';
 
 class App extends Component{
   render(){
-    const text = '당신은 어썸한가요?';
-    const condition = true;
-    const style = {
-      backgroundColor: 'gray',
-      border: '1px solid black',
-      height: Math.round(Math.random() * 300) + 50,
-      width: Math.round(Math.random() * 300) + 50,
-      WebkitTransition: 'all',
-      MozTransition: 'all',
-      msTransition: 'all'
-    };
     return (
-      <div className="my-div">
-        {/* 요소 밖에선 이렇게 주석*/ }
-        <h2>리액트 안녕!</h2>
-        <h2>{text}</h2>
-        { condition && '보여주세요' }
-        <div style={style}        
-          // self-closed 태그에서만 작동하는 주석
-          // 마지막 />가 꼭 새 줄에 있어야함
-          /* 이렇게도 작성 가능쓰 */
-        />
-        // 여기에 쓰는 건 그대로 렌더링 됨
-        /* 여긴 주석 못씀ㅋ */
-      </div> 
+      <MyComponent/>
     );
   }
 }
